@@ -1,0 +1,141 @@
+
+
+@font-face {
+    font-family: 'Bree_Serif';
+    src: url('BreeSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    
+    background-color: #6596ff;
+    color:#ececec;
+    
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+form {
+    background-color: #6596ff;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 8px;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: rgb(84, 139, 0);
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: rgb(29, 48, 0);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nobold {
+    font-weight: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.noitalic {
+    font-style: normal;
+}
+
+.footer {
+    font-size: smaller;
+    text-align: center;
+    margin: 5px;
+}
+
+#tombluescreenlink {
+    color: rgb(0, 4, 255);
+    transition: color 0.2s;
+}
+
+#tombluescreenlink:hover {
+    color: rgb(0, 1, 68);
+}
+
+.moduleHolder:first-child {
+    border-top: 0px none #79b3ff;
+}
+
+.moduleHolder {
+    
+    border-top: 2px solid #79b3ff;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #79b3ff;
+    
+}
+
+.moduleHolder:last-child {
+    border-bottom: 0px none #79b3ff;
+}
+
+.emptymodules {
+    text-align: center;
+}
+
+.help {
+    text-align: center;
+}
+
+form {
+    display: flex;
+}
+
+input[type="button"] {
+    float: 19;
+    text-align: center;
+    background-color: #79b3ff;
+    border-style: none;
+    padding: 5px;
+    
+    margin-left: 5px;
+    transition: background-color 0.2s;
+}
+
+input[type="button"]:hover {
+    background-color: #4d72a3;
+    
+}
+
+input[type="text"] {
+    flex: 80;
+    text-align: center;
+    background-color: #79b3ff;
+    border: 0px !important;
+    transition: background-color 0.2s;
+}
+
+input[type="text"]:hover {
+    background-color: #4d72a3;
+    
+}
+
+#modulescroll {
+    color: rgb(0, 18, 78);
+    padding-top: 10px;
+    overflow-y: auto;
+    background-color: white;
+    padding: 5px;
+}
+
+.title {
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Aber Module Assist",
+    "version": "1.0",
+    "description": "Search Aber Modules database",
+    "icons":
+        {
+            "48":"aberlogo.png"
+        },
+    "background":
+    {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "scripting",
+        "notifications"
+    ]
+    
+}

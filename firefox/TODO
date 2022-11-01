@@ -1,0 +1,7 @@
+- Redesign / recolour datapopup.html
+- Reformat popup.js for jquery
+- Generate new icon files
+- Develop a way to update aber module database (pull from web server? or maybe github?)
+- Convert to API Polyfill https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension
+- Update URL?!?! not sure
+- Manifest v3
